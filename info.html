@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Информация о Киану Ривзе</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#sidebar" data-bs-offset="70">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Киану Ривз</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="info.html">Основная информация</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="films.html">Список фильмов</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div id="actorCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="keanu_1.jpg" class="d-block w-100" alt="keanu_1">
+            </div>
+            <div class="carousel-item">
+                <img src="keanu_2.jfif" class="d-block w-100" alt="keanu_2">
+            </div>
+            <div class="carousel-item">
+                <img src="keanu_3.png" class="d-block w-100" alt="keanu_3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#actorCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#actorCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+        </button>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div id="sidebar" class="position-sticky top-0">
+                <h5>Содержание</h5>
+                <nav class="nav flex-column">
+                    <a class="nav-link active" href="#carousel">Карусель</a>
+                    <a class="nav-link" href="#movies">Карточки с фильмами</a>
+                    <a class="nav-link" href="#about">Краткая информация</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="col-md-9">
+            <h2 id="movies">Фильмы с Киану Ривзом</h2>
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="matrix.jpg" class="card-img-top" alt="Фильм 1">
+            <div class="card-body">
+                <h5 class="card-title">Матрица</h5>
+                <p class="card-text">«Добро пожаловать в реальный мир»</p>
+                <a href="https://www.kinopoisk.ru/film/301/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="constantine.jpg" class="card-img-top" alt="Фильм 2">
+            <div class="card-body">
+                <h5 class="card-title">Константин: Повелитель тьмы</h5>
+                <p class="card-text">«Ад и Рай держат пари на Земле»</p>
+                <a href="https://www.kinopoisk.ru/film/3793/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <img src="john_wick.webp" class="card-img-top" alt="Фильм 3">
+            <div class="card-body">
+                <h5 class="card-title">Джон Уик</h5>
+                <p class="card-text">«Его лучше не трогать»</p>
+                <a href="https://www.kinopoisk.ru/film/762738/" class="btn btn-primary">Смотреть на Кинопоиске</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!-- Краткая информация об актёре -->
+            <h2 id="about">Краткая информация об актёре</h2>
+            <button class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#infoCollapse" style="margin-bottom: 25px">Показать/Скрыть информацию</button>
+            <div id="infoCollapse" class="collapse mt-3">
+                <div class="container1">
+                    <h1>Киану Ривз</h1>
+                    <div class="bio">
+                        <p>Киану Ривз родился 2 сентября 1964 года в Бейруте, столице Ливана, в семье англичанки Патрисии Бонд и уроженца Гавайев Сэмьюэла Ноулина Ривза-младшего, американца с английскими, ирландскими, португальскими, гавайскими и китайскими корнями.</p>
+                        
+                        <p>Детство и юность Ривза и его сестёр по большей части прошли в Торонто. Его воспитанием в основном занимались родители матери и няньки. В течение пяти лет он сменил четыре школы, включая школу искусств в Торонто, откуда он был позднее исключён «из-за излишней непокорности», как он сам объяснял позднее.</p>
+                
+                        <p>Ривз мечтал стать хоккеистом, выступающим за честь Канады на Олимпиаде, однако травма поставила на его мечтах о хоккее крест. Позднее Киану посещал альтернативную бесплатную школу («Avondale Alternative»), что позволяло ему получать образование и подрабатывать в качестве актёра одновременно. Позже он бросил школу, так и не получив аттестат о среднем образовании.</p>
+                
+                        <p>Ривз начал свою актёрскую карьеру в возрасте девяти лет, появившись в театральной постановке мюзикла «Чёртовы янки». В пятнадцать лет он сыграл роль Меркуцио в театральной постановке «Ромео и Джульетты». Первым появлением Ривза в полнометражном фильме стала роль хоккейного вратаря в фильме «Молодая кровь» с Робом Лоу в главной роли.</p>
+                
+                        <p>В начале 1990-х Ривз начинает отходить от образа актёра, снимающегося в фильмах для подростков. Он появляется в высокобюджетных фильмах. Так, за роль в боевике «На гребне волны» (1991) он получает награду MTV в номинации «Самый желанный актёр» в 1992 году.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

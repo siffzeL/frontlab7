@@ -1,0 +1,64 @@
+body {
+
+    background-color: #b1d5d5;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    text-align: right;
+    float: none;
+    
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 20px;
+}
+
+.sidebar .nav-link {
+    font-weight: bold;
+}
+
+.sidebar .nav-link.active {
+    color: #b3ffff;
+}
+
+.alert {
+    margin-top: 20px;
+}
+.container1 {
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.bio {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+.bio p {
+    line-height: 1.6;
+}
+
